@@ -18,7 +18,7 @@ const Header = () => {
         padding: "1rem",
         top: 0,
         width: "100%",
-        zIndex: 10,
+        zIndex: 10
       }}
     >
       <a href="#home">Home</a>
