@@ -32,26 +32,22 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Charles Robert Darwin, The man who documented the life",
-    description:
-      "This a tribute page of Charles Darwin.",
+    description: "This a tribute page of Charles Darwin.",
     url: "https://echodavid.github.io/fccTributePage/",
   },
   {
     title: "Survey Form",
-    description:
-      "A basic survery form to practice HTML and CSS.",
+    description: "A basic survery form to practice HTML and CSS.",
     url: "https://echodavid.github.io/fccSurveyForm/",
   },
   {
     title: "My Resume Site",
-    description:
-      "Comming soon...",
+    description: "Comming soon...",
     url: "",
   },
   {
     title: "Documentation for GitHub.dev and GitHub Codespaces",
-    description:
-      "Comming soon...",
+    description: "Comming soon...",
     url: "",
   },
 ];
@@ -64,7 +60,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
